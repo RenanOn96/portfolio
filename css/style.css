@@ -1,4 +1,4 @@
-.cabeçalho {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@ a::before {
     margin-right: 10px;
 }
 
-.caixa {
+.button{
     display: inline-block;
     background-color: #FF0000;
     box-shadow: 5px 5px 1px #c9c9c9;
@@ -44,7 +44,7 @@ a::before {
     transition: transform 100ms cubic-bezier(0, 0, 0.61, 2.28);
 }
 
-.caixa:hover {
+.button:hover {
     transform: scale(1.1);
     color: black;  
 }
@@ -56,24 +56,18 @@ main {
     left: 0px;
     top: 110px;
     background-image: url(../assets/img/imagem-fundo.png);
+    background-repeat:no-repeat;
+    
 
 }
 
 #imagem-pixel{
     position: absolute;
+    height: 797px;
+    width: 955px;
     left: 0px;
-    border-right: 5px solid black;
+    border-right: 4px solid #FF0000;
 
-}
-
-#apresentação {
-    position: absolute;
-    padding: 0px 20px;
-    line-height:40px;
-    margin-left:90px;
-    margin-top: 116px;
-    background-color: #3A4042;
-    box-shadow: 7px 7px 1px black;
 }
 
 
