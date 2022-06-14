@@ -9,32 +9,38 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/components/header.css">
+        <link rel="stylesheet" href="css/components/actions.css">
         <link rel="stylesheet" href="css/components/title.css">
         <link rel="stylesheet" href="css/components/subtitle.css">
         <link rel="stylesheet" href="css/components/box.css">
+        <link rel="stylesheet" href="css/components/button.css">
         <link rel="shortcut icon" href="assets/img/Male-Avatar-icon.png" type="image/x-icon">
         <title>Renan Oliveira</title>
     </head>
     <body>
-        
-        <header>
+        <header class="header">
             <img class="image" src="assets/img/Male-Avatar-icon.png" alt="icone">
             <nav>
-                    <a href="" lang="en"> Skill</a>
-                    <a href="">Projetos</a>
-                    <a href="">Sobre</a>
-                    <a href="">Contatos</a>
-                    <a href="" class="button" lang="en">Download Cv</a>
+                    <a class="action" href="" lang="en"> Skill</a >
+                    <a class="action" href="">Projetos</a>
+                    <a class="action" href="">Sobre</a>
+                    <a class="action" href="">Contatos</a>
+                    <a class="button" class="action" href="" lang="en">Download Cv</a>
             </nav>
         </header>
         <main>
-            <img id="imagem-pixel" src="assets/img/banner-red.jpg" alt="imagem">
-            <div id="box">
-                <h1 id="name">Renan Oliveira</h1>
-                <h2 id="charge"> FrontEnd Developer</h2>
+            <img id="imagem-pixel" src="assets/img/banner-red.png" alt="imagem">
+            <div class="box">
+                <h1 class="title">Renan Oliveira</h1>
+                <h2 class="subtitle"> FrontEnd Developer</h2>                                                               
+                
             </div>
-
+            <div id="info">
+                <a href="" id="download" class="button" lang="en">Download Cv</a>
+                <a href="" id="contact" class="button" lang="en">Contato</a>
+                
+            </div>
         </main>
-
     </body>
 </html>
