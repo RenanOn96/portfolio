@@ -12,16 +12,14 @@
 .banner .wrapper{
     display: flex;
     flex-direction: column;
-    width: 580px;
-
-    
+    width: 580px; 
 }
 .banner .box {
     margin-bottom: 40px;
-    
+  
 }
 
-.banner .seila {
+.banner .space {
     display: flex;
     justify-content: space-around;
 }
