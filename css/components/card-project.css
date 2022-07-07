@@ -1,0 +1,10 @@
+.card-project{
+    display: flex;
+    background-color: #FF0000;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    box-shadow: 7px 7px 1px #fff;
+
+}

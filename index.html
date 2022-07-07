@@ -17,13 +17,16 @@
         <link rel="stylesheet" href="css/components/banner.css">
         <link rel="stylesheet" href="css/components/main-skill.css">
         <link rel="stylesheet" href="css/components/section.css">
-        <link rel="stylesheet" href="css/components/progress.css">
-        <link rel="shortcut icon" href="assets/img/Male-Avatar-icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/components/wrapper-skill.css">
+        <link rel="stylesheet" href="css/components/progress-bar.css">
+        <link rel="stylesheet" href="css/components/card-project.css">
+        <link rel="stylesheet" href="css/components/wrapper-card.css">
+        <link rel="shortcut icon" href="assets/img/Male.png" type="image/x-icon">
         <title>Renan Oliveira</title>
     </head>
     <body>
         <header class="header">
-            <img class="image" src="assets/img/Male-Avatar-icon.png" alt="icone">
+            <img class="image" src="assets/img/Male.png" alt="icone">
             <nav>
                     <a class="action" href="" lang="en"> Skill</a >
                     <a class="action" href="">Projetos</a>
@@ -49,41 +52,69 @@
            
             <h2 class="main-title _second">Skills</h2>
             
-            <article class="main-skill">
-                 
-                <img class="icon" src="assets/img/ico_html5.png" alt="html">
-                <div class="right">
-                    <h3 class="title">HTML</h3>   
-                    <progress class="progress-bar" max="100" value="60">
-                                60%
-                    </progress>
-                </div>       
-            </article>
+            <div class="wrapper-skill">
+                <article class="main-skill">
+                    
+                    <img class="icon" src="assets/img/ico_html5.png" alt="logo do html em pixel arte">
+                    <div class="right">
+                        <h3 class="title">HTML</h3>   
+                        <progress class="progress-bar" max="100" value="60">
+                                    60%
+                        </progress>
+                    </div>       
+                </article>
+                
+                <article class="main-skill">
+                    
+                    <img class="icon" src="assets/img/ico_css3.png" alt="logo do css em pixel arte">
+                    <div class="right">
+                        <h3 class="title">CSS</h3>   
+                        <progress class="progress-bar" max="100" value="50">
+                                    50%
+                        </progress>
+                    </div>       
+                </article>
 
-            
-            <article class="main-skill">
-                 
-                <img class="icon" src="assets/img/ico_css3.png" alt="html">
-                <div class="right">
-                    <h3 class="title">CSS</h3>   
-                    <progress class="progress-bar" max="100" value="50">
-                                50%
-                    </progress>
-                </div>       
-            </article>
+                <article class="main-skill">
+                    
+                    <img class="icon" src="assets/img/ico_js.png" alt="logo do javascript em pixel arte">
+                    <div class="right">
+                        <h3 class="title">JavaScript</h3>   
+                        <progress class="progress-bar" max="100" value="40">
+                                    40%
+                        </progress>
+                    </div>       
+                </article>
+                
+                <article class="main-skill">
+                    
+                    <img class="icon" src="assets/img/ico_react.png" alt="logo react em pixel arte">
+                    <div class="right">
+                        <h3 class="title">REACT</h3>   
+                        <progress class="progress-bar" max="100" value="10">
+                                    10%
+                        </progress>
+                    </div>       
+                </article>
+            </div>    
+        </section>
 
+        <section class="section _projects">
+
+            <h2 class="main-title _second"> Projetos</h2>
             
-            <article class="main-skill">
-                 
-                <img class="icon" src="assets/img/ico_js.png" alt="html">
-                <div class="right">
-                    <h3 class="title">JavaScript</h3>   
-                    <progress class="progress-bar" max="100" value="40">
-                                40%
-                    </progress>
-                </div>       
-            </article>
-            
+            <div class="wrapper-card">
+                <figure class="card-project">
+                    <Img class="logo" src="assets/img/logo-firedlabs.png "></Img>
+                </figure>
+                <figure class="card-project">
+                    <Img class="logo" src="assets/img/logo-collabcode.png "></Img>
+                </figure>
+                <figure class="card-project">
+                    <Img class="logo" src="assets/img/Male-245px.png"></Img>
+                </figure>
+            </div>
+
         </section>
     </body>
 </html>
