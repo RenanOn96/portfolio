@@ -1,16 +1,16 @@
-.section {
+.main-section {
     background-color: #000000;
     background-size: 100%;
     height: 790px;
     border-bottom:7px solid #FF0000;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
-.section .main-title {
-    margin-bottom: 60px;
+.main-section .main-title {
+    margin-bottom: 80px;
 }
 
-.section._projects {
+.main-section._projects {
     height: 520px;
    
     
